@@ -1,0 +1,39 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# VS Code settings
+.vscode/
+
+# .NET Core generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Environment files
+*.env
+.env.*
+
+# Publish directory
+wwwroot/
+
+# Rider settings
+.idea/
+
+# macOS and Linux files
+.DS_Store
+*.swp
+
+# Windows files
+Thumbs.db
+ehthumbs.db
