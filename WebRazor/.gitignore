@@ -1,0 +1,44 @@
+# Build
+bin/
+obj/
+artifacts/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# ASP.NET Core
+wwwroot/
+*.db
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.*
+
+# EF Core
+Migrations/
+
+# Rider (JetBrains)
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# npm/yarn (caso tenha front-end com JS)
+node_modules/
+dist/
+
+# Temp files
+*.swp
