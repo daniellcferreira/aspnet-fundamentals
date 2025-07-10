@@ -4,15 +4,15 @@
   {
     static void Main(string[] args)
     {
-      Carro carro1 = new Carro();
-      Carro carro2 = new();
-      var carro3 = new Carro();
+      Carro fusca = new Carro("preto", "1300");
 
-      carro1.cor = "azul";
-      carro2.cor = "vermelho";
-      carro3.cor = "preto";
-
-      Carro.qtdCarros = 3;
+      fusca.Acelerar();
+      fusca.Acelerar();
+      Console.WriteLine($"A velocidade atual é {fusca.ObterVelocidade()}km/h");
+      fusca.Acelerar();
+      fusca.Desacelerar();
+      fusca.Virar("esquerda");
+      fusca.Parar();
     }
   }
 }
