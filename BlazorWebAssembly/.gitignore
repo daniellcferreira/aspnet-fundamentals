@@ -1,0 +1,44 @@
+# Build outputs
+bin/
+obj/
+artifacts/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VSCode settings
+.vscode/
+
+# ASP.NET Core
+wwwroot/
+*.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# EF Core Migrations
+Migrations/
+
+# node_modules (caso use JS/TS com NPM/Yarn)
+node_modules/
+dist/
+
+# JetBrains Rider
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Temp files
+*.swp
