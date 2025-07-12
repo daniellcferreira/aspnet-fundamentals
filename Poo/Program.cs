@@ -14,21 +14,30 @@
       // fusca.Virar("esquerda");
       // fusca.Parar();
 
-      Gato gato1 = new Gato();
+      // Gato gato1 = new Gato();
 
-      gato1.Nome = "Garfield";
-      gato1.Andar();
-      gato1.Comer(0.5m);
-      gato1.Dormir();
-      gato1.Miar();
+      // gato1.Nome = "Garfield";
+      // gato1.Andar();
+      // gato1.Comer(0.5m);
+      // gato1.Dormir();
+      // gato1.Miar();
 
-      Cachorro cachorro1 = new Cachorro();
+      // Cachorro cachorro1 = new Cachorro();
 
-      cachorro1.Nome = "Rex";
-      cachorro1.Andar();
-      cachorro1.Comer(0.5m);
-      cachorro1.Dormir();
-      cachorro1.Latir();
+      // cachorro1.Nome = "Rex";
+      // cachorro1.Andar();
+      // cachorro1.Comer(0.5m);
+      // cachorro1.Dormir();
+      // cachorro1.Latir();
+
+      Quadrado quadrado = new Quadrado();
+
+      quadrado.Lado = 5;
+      
+      quadrado.CalcularArea();
+      quadrado.CalcularPerimetro();
+
+      Console.WriteLine(quadrado.ToString());
     }
   }
 }
