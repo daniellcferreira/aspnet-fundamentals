@@ -49,4 +49,3 @@ Além disso, os projetos foram configurados com boas práticas como `.gitignore`
 - Uso de classes (`Carro`) com atributos estáticos e de instância.
 - Explora instanciamento de objetos em `Program.cs`.
 
-
